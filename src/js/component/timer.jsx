@@ -21,7 +21,7 @@ function SelectTimer() {
  
  return (
    <div className='selectTimer'>
-     <input type="number" value={targetTime} onChange={e => setTargetTime(e.target.value)}  />
+     <input  type="number" value={targetTime} onChange={e => setTargetTime(e.target.value)}   /> Set Timer
    </div>
  );
 }
